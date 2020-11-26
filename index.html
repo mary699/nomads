@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,69 +9,450 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <!-- css stylesheet -->
-    <link rel="stylesheet" href="style.css">
+
     <link rel="icon" href="favicon.ico">
+                        <style>
+                            /* font-family: 'Lato', sans-serif; */
+                            * {
+                                margin: 0px;
+                                padding: 0px;
+                            }
+
+                            body {
+                                font-family: 'Lato', sans-serif;
+                            }
+
+                            .main-container {
+                                /* border: 2px solid blue; */
+                                height:800vh;
+                                margin: 0px 60px;
+                            }
+
+                            .sub-container {
+                                /* border: 2px solid red; */
+                                height: 750vh;
+                            }
+
+                            .banner {
+                                /* border: 2px solid red; */
+                            }
+
+                            .empty {
+                                background-color: #ff6600;
+                                height: 20vh;
+                            }
+                            .emptyall{
+                                /* border: 4px solid blue; */
+                                height: 15vh;
+                                display: flex;
+                                padding: 10px;
+
+
+                            }
+                            .emptybox{
+                               flex: 2;
+                               /* border: 2px solid white; */
+                               text-align: center;
+                              
+                            }
+                            .emptyboxone{
+                                text-align: center;
+                             
+                            }
+                            .emptyboxtwo{
+                                text-align: center;
+                            }
+                            .emptyboxtwo p{
+                                color:663300 ;
+
+                            }
+
+                            .emptyboxthree{
+                                text-align: center;
+                            }
+                            .emptyboxthree a{
+                                text-decoration: none;
+                                font-size: 12px;
+                                color: white;
+                                font-weight: 200;
+                            }
+
+                            .training-section{
+                              
+                                height: 80vh;
+                            }
+
+                            .training{
+                           
+                                height: 70vh;
+                                margin: 15px 130px;
+                                display: block;
+                                background-color: rgba(211, 211, 211, 0.178);
+                            }
+                        .img img{
+                         
+                            border-radius: 10px;
+                            width:50%;
+                            height:50%;
+                            
+                        }
+                        .heading{
+                          
+                            margin-top: 5px;
+
+                        }
+                        .heading h1{
+                          color: #ff6600;
+                          text-align: left;
+
+                        }
+                        .text{
+                         
+                            margin-top: 5px;
+
+                        }
+                        .text p{
+                        color:  #663300;
+                        text-align: left;
+                        line-height: 1.5em;
+                        }
+                      
+                        .ourbutton{
+                          margin-top: 20px;
+                         
+                         
+                        }
+                        .ourbutton a{
+                            text-decoration: none;
+                            color:  #663300;
+ 
+                        }
+                        .ourbutton a:hover{
+                            color:   #ff6600;
+                        }
+
+
+
+                     /* work section starts herre */
+                        .work{
+                            height: 100vh;
+                            /* border: 2px solid blue; */
+                        }
+                        .subwork{
+                            /* border: 2px solid red; */
+                            height: 90vh;
+                            margin: 0px 40px;
+
+                        }
+                        .subwork-heading{
+                            border: 2px solid red;
+                            height: 10vh;
+
+                        }
+                        .subwork-heading h1{
+                            font-size: 22px;
+                        }
+                        .subwork-mid{
+                            border: 2px solid blue;
+                            height: 15vh;
+
+                        }
+                        .subwork-img{
+                            border: 2px solid red;
+                            height: 60vh;
+                            display: flex;
+
+                        }
+                        .subimg{
+                            border: 2px solid blue;
+                        flex: 2;
+                        }
+
+
+
+
+
+
+
+
+
+
+
+
+                 
+                      /* work section ends here */
+
+
+
+
+
+
+
+
+
+                            /*  MEDIA QUERY SECTION */
+
+                    @media (max-width: 600px) {
+                        .empty {
+                                background-color: #ff6600;
+                            height: 255px;
+                                width: 100%;
+                            }
+                            .emptyall{
+                               
+                                display: block;
+
+                            }
+                            .emptybox{
+                                display: block; 
+                                flex: none;
+                               border: 2px solid white;
+                               margin-bottom: 20px;
+                            }
+                            .emptyboxtwo p{
+                                color:white ;
+                                font-size: 15px;
+
+
+                            }
+                            .emptyboxthree a{
+                                font-size: 12px;
+                                color: #663300;
+                            }
+                            .training-section{
+                                height: 400px;
+                                margin-top: 10px;
+                            }
+
+                            .training{
+                              
+                                height: 400px;
+                                margin: 0px;
+                                display: block;
+                                background-color: rgba(211, 211, 211, 0.856);
+                            }
+                            .img img{
+                                border-radius: 10px;
+                                width:100%;
+                                height:50%;
+                            
+                        }
+                        .heading h1{
+                            font-size: 22px;
+                        }
+                        .text p{
+                            font-size: 16px;
+                        }
+
+                        .ourbutton a{
+                            font-size: 16px;
+                            color:  #663300;
+                            text-decoration: none;
+                   
+                  
+                 }
+                 .ourbutton a:hover{
+                            color:   #ff6600;
+                            background-color: white;
+                 }
+
+                 /* work section starts herre */
+                        .work{
+                            /* border: 2px solid blue; */
+                        }
+                        .subwork{
+                            /* border: 5px solid red; */
+                            height: 950px;
+                            margin: 0px;
+                            width: 100%;
+
+                        }
+                        .subwork-heading{
+                            border: 2px solid red;
+                            height: 50px;
+                            width: 100%;
+
+                        }
+                        .subwork-heading h1{
+                            font-size: 16px;
+                        }
+                        .subwork-mid{
+                            /* border: 2px solid blue; */
+                            height: 180px;
+                            margin-top: 5px;
+                            width: 100%;
+                        }
+                        .subwork-img{
+                            /* border: 2px solid red; */
+                            height: 130vh;
+                            display: block;
+                            width: 100%;
+                            text-align: center;
+                            margin-top: 5px;
+
+                        }
+                        .subimg{
+                            /* border: 2px solid blue; */
+                            display: block;
+                            height: 40vh;
+                            margin-top: 10px;
+                            width: 100%;
+                        }
+
+
+                 /* work section ends here */
+
+
+                    }
+        
+     
+    </style>
 </head>
+
 <body>
+    <div class="main-container">
 
-<div class="main-container">
+        <div class="sub-container">
+
+            <div class="banner">
+                <img src="images/bgimg.png" width="100%" alt="">
+            </div>
+            <!-- section one starts -->
+            <section id="">
+            <div class="empty">
+                        <div class="emptyall">
+                                <div class="emptybox">
+                                            <div class="emptyboxone">
+                                                🌏
+                                            </div>
+                                            <div class="emptyboxtwo">
+                                                <p>Clean Workspace</p>
+                                            </div>
+                                            <div class="emptyboxthree">
+                                                <a href="#">Read more ..</a>
+                                            </div>
+                                </div>
+                                <div class="emptybox">
+                                            <div class="emptyboxone">
+                                                ✅
+                                            </div>
+                                            <div class="emptyboxtwo">
+                                                <p>Organised Workspace</p>
+                                            </div>
+                                            <div class="emptyboxthree">
+                                                <a href="#">Read more ..</a>
+                                            </div>
+                                </div>
+                                <div class="emptybox">
+                                            <div class="emptyboxone">
+                                                🙋
+                                            </div>
+                                            <div class="emptyboxtwo">
+                                                <p>Customer Service</p>
+                                            </div>
+                                            <div class="emptyboxthree">
+                                                <a href="#">Read more ..</a>
+                                            </div>
+                                </div>
+                        </div>
+            </div>
+            </section>
+<!-- section one ends -->
 
 
-        <div class="banner">
-            <img src="images/bg.png" width="100%" height="100%" alt="">
+                <!-- section two starts here -->
+<section>
+            <div class="training-section">
+                    <div class="training">
+                            <div class="img">
+                                <img style="border-radius: 10px;" src="images/croom.jpg" width="50%" height="50%" alt="">
+                            </div>
+                            <div class="heading">
+                                <h1>We have a Great Workspace</h1>
+                            </div>
+                            <div class="text">
+                                <p>We offer excellent tech solutions via serviced office spaces with minimal upfront commitment and a set up service that is efficient, giving you the convenience of a workspace to present a professional front to your Clients</p>
+                            </div>
+                            <div class="ourbutton">
+                            <button><a href="">Read more</a></button>
+                            </div>
+                    </div>
+            </div>
+</section>
+
+
+
+                <!-- section two ends here -->
+
+
+                <!-- sectionthree -->
+                <section>
+                    <div class="work">
+                        <div class="subwork">
+                      
+                                <div class="subwork-heading">
+                                    <h1>The Awesomeness of our Work</h1>
+                                </div>
+                                <div class="subwork-mid">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis maxime libero fugit inventore doloribus quibusdam fuga quis expedita voluptates perspiciatis! Placeat veniam unde iste ipsum vero architecto vel maxime explicabo sequi nihil perferendis assumenda officiis tempora, asperiores accusamus obcaecati aliquid, eligendi quos ab! Molestiae eaque, inventore voluptates reprehenderit odio doloremque ipsum deserunt sunt accusantium unde voluptatem delectus et magni fugiat.</p>
+                                </div>
+                                <div class="subwork-img">
+                                            <div class="subimg">
+
+                                            </div>
+                                            <div class="subimg">
+                                                
+                                            </div>
+                                            <div class="subimg">
+                                                
+                                            </div>
+                                </div>
+                    </div>
+      
+                </div>
+
+
+                    
+                </section>
+                <!-- sectionthree -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- sub container ends here -->
         </div>
-       
-<div class="boxone">
-        <div class=" boxone-content">
-        <h1>Welcome to Nomandians hub we create  </h1>
-        <h1>A workspace for the future of work </h1>
-        </div>
-</div>
-<div class="boxtwo">
-    <div class="boxtwo-content">
 
+
+
+
+
+
+        <!-- ends here -->
     </div>
-</div>
 
-<div class="mainlayout">
-    <div class="sublayout">
-        <div class="layout">
-        <div class="layout-left">
-                
-        </div>
-        <div class="layout-right">
-            
-        </div>
-        </div>
-       
-        <div class="layout">
-            <div class="layout-left">
-                
-            </div>
-            <div class="layout-right">
-                
-            </div>
-        </div>
-       
-       
-        <div class="layout">
-            <div class="layout-left">
-                
-            </div>
-            <div class="layout-right">
-                
-            </div>
-       </div>
-    </div>
-   
-</div>
-
-
-
-
-
-<!-- main-container div ends here -->
-</div>
-    
 </body>
+
 </html>
