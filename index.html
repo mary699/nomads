@@ -11,301 +11,439 @@
     <!-- css stylesheet -->
 
     <link rel="icon" href="favicon.ico">
-                        <style>
-                            /* font-family: 'Lato', sans-serif; */
-                            * {
-                                margin: 0px;
-                                padding: 0px;
-                            }
+    <style>
+        /* font-family: 'Lato', sans-serif; */
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
 
-                            body {
-                                font-family: 'Lato', sans-serif;
-                            }
+        body {
+            font-family: 'Lato', sans-serif;
+        }
 
-                            .main-container {
-                                /* border: 2px solid blue; */
-                                height:800vh;
-                                margin: 0px 60px;
-                            }
+        .main-container {
+            /* border: 2px solid blue; */
+            height: 800vh;
+            margin: 0px 60px;
+        }
 
-                            .sub-container {
-                                /* border: 2px solid red; */
-                                height: 750vh;
-                            }
+        .sub-container {
+            /* border: 4px solid red; */
+            height: 750vh;
+        }
 
-                            .banner {
-                                /* border: 2px solid red; */
-                            }
+        .banner {
+            /* border: 2px solid red; */
+        }
 
-                            .empty {
-                                background-color: #ff6600;
-                                height: 20vh;
-                            }
-                            .emptyall{
-                                /* border: 4px solid blue; */
-                                height: 15vh;
-                                display: flex;
-                                padding: 10px;
+        .empty {
+            background-color: #ff6600;
+            height: 20vh;
+        }
 
-
-                            }
-                            .emptybox{
-                               flex: 2;
-                               /* border: 2px solid white; */
-                               text-align: center;
-                              
-                            }
-                            .emptyboxone{
-                                text-align: center;
-                             
-                            }
-                            .emptyboxtwo{
-                                text-align: center;
-                            }
-                            .emptyboxtwo p{
-                                color:663300 ;
-
-                            }
-
-                            .emptyboxthree{
-                                text-align: center;
-                            }
-                            .emptyboxthree a{
-                                text-decoration: none;
-                                font-size: 12px;
-                                color: white;
-                                font-weight: 200;
-                            }
-
-                            .training-section{
-                              
-                                height: 80vh;
-                            }
-
-                            .training{
-                           
-                                height: 70vh;
-                                margin: 15px 130px;
-                                display: block;
-                                background-color: rgba(211, 211, 211, 0.178);
-                            }
-                        .img img{
-                         
-                            border-radius: 10px;
-                            width:50%;
-                            height:50%;
-                            
-                        }
-                        .heading{
-                          
-                            margin-top: 5px;
-
-                        }
-                        .heading h1{
-                          color: #ff6600;
-                          text-align: left;
-
-                        }
-                        .text{
-                         
-                            margin-top: 5px;
-
-                        }
-                        .text p{
-                        color:  #663300;
-                        text-align: left;
-                        line-height: 1.5em;
-                        }
-                      
-                        .ourbutton{
-                          margin-top: 20px;
-                         
-                         
-                        }
-                        .ourbutton a{
-                            text-decoration: none;
-                            color:  #663300;
- 
-                        }
-                        .ourbutton a:hover{
-                            color:   #ff6600;
-                        }
+        .emptyall {
+            /* border: 4px solid blue; */
+            height: 15vh;
+            display: flex;
+            padding: 10px;
 
 
+        }
 
-                     /* work section starts herre */
-                        .work{
-                            height: 100vh;
-                            /* border: 2px solid blue; */
-                        }
-                        .subwork{
-                            /* border: 2px solid red; */
-                            height: 90vh;
-                            margin: 0px 40px;
+        .emptybox {
+            flex: 2;
+            /* border: 2px solid white; */
+            text-align: center;
 
-                        }
-                        .subwork-heading{
-                            border: 2px solid red;
-                            height: 10vh;
+        }
 
-                        }
-                        .subwork-heading h1{
-                            font-size: 22px;
-                        }
-                        .subwork-mid{
-                            border: 2px solid blue;
-                            height: 15vh;
+        .emptyboxone {
+            text-align: center;
 
-                        }
-                        .subwork-img{
-                            border: 2px solid red;
-                            height: 60vh;
-                            display: flex;
+        }
 
-                        }
-                        .subimg{
-                            border: 2px solid blue;
-                        flex: 2;
-                        }
+        .emptyboxtwo {
+            text-align: center;
+        }
+
+        .emptyboxtwo p {
+            color: #663300;
+
+        }
+
+        .emptyboxthree {
+            text-align: center;
+        }
+
+        .emptyboxthree a {
+            text-decoration: none;
+            font-size: 12px;
+            color: white;
+            font-weight: 200;
+        }
+
+        .training-section {
+
+            height: 80vh;
+        }
+
+        .training {
+
+            height: 70vh;
+            margin: 15px 130px;
+            display: block;
+            background-color: rgba(211, 211, 211, 0.178);
+        }
+
+        .img img {
+
+            border-radius: 10px;
+            width: 50%;
+            height: 50%;
+
+        }
+
+        .heading {
+
+            margin-top: 5px;
+
+        }
+
+        .heading h1 {
+            color: #ff6600;
+            text-align: left;
+
+        }
+
+        .text {
+
+            margin-top: 5px;
+
+        }
+
+        .text p {
+            color: #663300;
+            text-align: left;
+            line-height: 1.5em;
+        }
+
+        .ourbutton {
+            margin-top: 20px;
+
+
+        }
+
+        .ourbutton a {
+            text-decoration: none;
+            color: #663300;
+
+        }
+
+        .ourbutton a:hover {
+            color: #ff6600;
+        }
 
 
 
+        /* work section starts herre */
+        .work {
+            height: 100vh;
+        }
 
+        .subwork {
+            height: 220vh;
+            /* margin: 0px 40px; */
 
+        }
 
+        .subwork-heading {
+            /* border: 2px solid red; */
+            height: 7vh;
+            background-color: #ff6600;
 
+        }
 
+        .subwork-heading h1 {
+            font-size: 22px;
+            color: white;
+            text-align: center;
+        }
 
+        .subwork-mid {
+            /* border: 2px solid blue; */
+            height: 15vh;
+            margin-bottom: 10px;
+            background-color: #ff6600;
 
+        }
 
+        .subwork-mid p {
+            line-height: 1.5em;
+            color: #663300;
+            text-align: center;
 
-                 
-                      /* work section ends here */
+        }
 
+        .subwork-img {
+            border: 4px solid red;
+            height: 125vh;
+            display: flex;
 
+        }
 
+        .subimg {
+            /* border: 1px solid rgb(12, 11, 11); */
+            flex: 2;
+            margin: 0px 10px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 12px rgba(63, 61, 61, 0.07);
 
+        }
 
+        .subimg-img {
+            /* border: 2px solid red; */
+            height: 40vh;
+        }
 
+        .subimg-text {
+            /* border: 2px solid rgb(55, 0, 255); */
+            height: 15vh;
+        }
 
+        .subimg-text h1 {
+            text-align: center;
+            color: #ff6600;
+            font-size: 22px;
+            padding: 10px;
+        }
 
+        .subimg-text h5 {
+            line-height: 1.5rem;
+            color: #663300;
+            text-align: center;
+        }
 
-                            /*  MEDIA QUERY SECTION */
-
-                    @media (max-width: 600px) {
-                        .empty {
-                                background-color: #ff6600;
-                            height: 255px;
-                                width: 100%;
-                            }
-                            .emptyall{
-                               
-                                display: block;
-
-                            }
-                            .emptybox{
-                                display: block; 
-                                flex: none;
-                               border: 2px solid white;
-                               margin-bottom: 20px;
-                            }
-                            .emptyboxtwo p{
-                                color:white ;
-                                font-size: 15px;
-
-
-                            }
-                            .emptyboxthree a{
-                                font-size: 12px;
-                                color: #663300;
-                            }
-                            .training-section{
-                                height: 400px;
-                                margin-top: 10px;
-                            }
-
-                            .training{
-                              
-                                height: 400px;
-                                margin: 0px;
-                                display: block;
-                                background-color: rgba(211, 211, 211, 0.856);
-                            }
-                            .img img{
-                                border-radius: 10px;
-                                width:100%;
-                                height:50%;
-                            
-                        }
-                        .heading h1{
-                            font-size: 22px;
-                        }
-                        .text p{
-                            font-size: 16px;
-                        }
-
-                        .ourbutton a{
-                            font-size: 16px;
-                            color:  #663300;
-                            text-decoration: none;
-                   
-                  
-                 }
-                 .ourbutton a:hover{
-                            color:   #ff6600;
-                            background-color: white;
-                 }
-
-                 /* work section starts herre */
-                        .work{
-                            /* border: 2px solid blue; */
-                        }
-                        .subwork{
-                            /* border: 5px solid red; */
-                            height: 950px;
-                            margin: 0px;
-                            width: 100%;
-
-                        }
-                        .subwork-heading{
-                            border: 2px solid red;
-                            height: 50px;
-                            width: 100%;
-
-                        }
-                        .subwork-heading h1{
-                            font-size: 16px;
-                        }
-                        .subwork-mid{
-                            /* border: 2px solid blue; */
-                            height: 180px;
-                            margin-top: 5px;
-                            width: 100%;
-                        }
-                        .subwork-img{
-                            /* border: 2px solid red; */
-                            height: 130vh;
-                            display: block;
-                            width: 100%;
-                            text-align: center;
-                            margin-top: 5px;
-
-                        }
-                        .subimg{
-                            /* border: 2px solid blue; */
-                            display: block;
-                            height: 40vh;
-                            margin-top: 10px;
-                            width: 100%;
-                        }
-
-
-                 /* work section ends here */
-
-
-                    }
+        .subimg-text p {
+            text-align: center;
+            font-size: 18px;
+            color: #ff6600;
+           font-family: 'Lato', sans-serif;
+            font-weight: bold;
+            margin-top: 18px;
+        }
         
-     
+
+.listing{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+}
+.listing h4{
+    line-height: 1.4rem;
+    font-size: 12px;
+    color: #663300;
+    text-align: justify;
+
+}
+
+        /* work section ends here */
+
+
+        /* section for dues */
+
+            .dues{
+                border: 2px solid blue;
+                position: relative;
+                top: 265px;
+                height: 15vh;
+                background-color: #ff6600;
+
+            }
+
+
+        /* section for dues ends here */
+
+
+
+
+
+
+
+        /*  MEDIA QUERY SECTION */
+
+        @media (max-width: 600px) {
+            .main-container {
+                margin: 0px 12px;
+            }
+
+
+            .empty {
+                background-color: #ff6600;
+                height: 255px;
+                width: 100%;
+                margin-top: 15px;
+            }
+
+            .emptyall {
+
+                display: block;
+
+            }
+
+            .emptybox {
+                display: block;
+                flex: none;
+                border: 1px solid white;
+                margin-bottom: 20px;
+            }
+
+            .emptyboxtwo p {
+                color: white;
+                font-size: 15px;
+
+
+            }
+
+            .emptyboxthree a {
+                font-size: 12px;
+                color: #663300;
+            }
+
+            .training-section {
+                height: 400px;
+                margin-top: 10px;
+                margin-bottom: 55px;
+            }
+
+            .training {
+
+                height: 440px;
+                margin: 0px;
+                display: block;
+                background-color: rgba(211, 211, 211, 0.856);
+            }
+
+            .img img {
+                border-radius: 10px;
+                width: 100%;
+                height: 50%;
+
+            }
+
+            .heading h1 {
+                font-size: 20px;
+                text-align: center;
+            }
+
+            .text p {
+                font-size: 13px;
+                text-align: center;
+                line-height: 1.5rem;
+
+            }
+
+            .ourbutton {
+                display: none;
+            }
+
+         
+
+            /* work section starts herre */
+
+            .subwork {
+                /* border: 5px solid red; */
+                height: 950px;
+                margin: 0px;
+                width: 100%;
+
+            }
+
+            .subwork-heading {
+                /* border: 5px solid red; */
+                height: 70px;
+                width: 100%;
+
+            }
+
+            .subwork-heading h1 {
+                font-size: 20px;
+                text-align: center;
+
+            }
+
+            .subwork-mid {
+                /* border: 2px solid blue; */
+                height: 180px;
+                margin-top: 5px;
+                width: 100%;
+            }
+
+            .subwork-mid p {
+                line-height: 1.5em;
+                font-size: 15px;
+                text-align: center;
+
+            }
+
+            .subwork-img {
+                /* border: 2px solid red; */
+                height: 470vh;
+                display: block;
+                width: 100%;
+                text-align: center;
+                margin-top: 5px;
+                margin-left: 0px;
+                margin-right: 0px;
+
+            }
+
+            .subimg {
+                /* width: 100%; */
+                display: block;
+                height: 40vh;
+                margin-bottom: 490px;
+
+            }
+
+            .subimg-img {
+                width: 100%;
+                height: 100%;
+                margin: 0px;
+            }
+
+            .subimg-text {
+                width: 100%;
+            }
+
+
+            /* work section ends here */
+
+             /* fee section starts here */
+
+             .dues{
+                /* border: 2px solid blue;
+                position: relative;
+                top: 1740px;
+                height: 10vh; */
+            }
+
+
+
+
+
+
+
+
+
+
+
+             /* fee section ends here */
+
+
+
+
+
+        }
     </style>
 </head>
 
@@ -319,102 +457,200 @@
             </div>
             <!-- section one starts -->
             <section id="">
-            <div class="empty">
-                        <div class="emptyall">
-                                <div class="emptybox">
-                                            <div class="emptyboxone">
-                                                🌏
-                                            </div>
-                                            <div class="emptyboxtwo">
-                                                <p>Clean Workspace</p>
-                                            </div>
-                                            <div class="emptyboxthree">
-                                                <a href="#">Read more ..</a>
-                                            </div>
-                                </div>
-                                <div class="emptybox">
-                                            <div class="emptyboxone">
-                                                ✅
-                                            </div>
-                                            <div class="emptyboxtwo">
-                                                <p>Organised Workspace</p>
-                                            </div>
-                                            <div class="emptyboxthree">
-                                                <a href="#">Read more ..</a>
-                                            </div>
-                                </div>
-                                <div class="emptybox">
-                                            <div class="emptyboxone">
-                                                🙋
-                                            </div>
-                                            <div class="emptyboxtwo">
-                                                <p>Customer Service</p>
-                                            </div>
-                                            <div class="emptyboxthree">
-                                                <a href="#">Read more ..</a>
-                                            </div>
-                                </div>
+                <div class="empty">
+                    <div class="emptyall">
+                        <div class="emptybox">
+                            <div class="emptyboxone">
+                                🌏
+                            </div>
+                            <div class="emptyboxtwo">
+                                <p>Clean Workspace</p>
+                            </div>
+                            <div class="emptyboxthree">
+                                <a href="http://nomadians.co/">Read more ..</a>
+                            </div>
                         </div>
-            </div>
+                        <div class="emptybox">
+                            <div class="emptyboxone">
+                                ✅
+                            </div>
+                            <div class="emptyboxtwo">
+                                <p>Organised Workspace</p>
+                            </div>
+                            <div class="emptyboxthree">
+                                <a href="http://nomadians.co/">Read more ..</a>
+                            </div>
+                        </div>
+                        <div class="emptybox">
+                            <div class="emptyboxone">
+                                🙋
+                            </div>
+                            <div class="emptyboxtwo">
+                                <p>Customer Service</p>
+                            </div>
+                            <div class="emptyboxthree">
+                                <a href="http://nomadians.co/">Read more ..</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
-<!-- section one ends -->
+            <!-- section one ends -->
 
 
-                <!-- section two starts here -->
-<section>
-            <div class="training-section">
+            <!-- section two starts here -->
+            <section>
+                <div class="training-section">
                     <div class="training">
-                            <div class="img">
-                                <img style="border-radius: 10px;" src="images/croom.jpg" width="50%" height="50%" alt="">
-                            </div>
-                            <div class="heading">
-                                <h1>We have a Great Workspace</h1>
-                            </div>
-                            <div class="text">
-                                <p>We offer excellent tech solutions via serviced office spaces with minimal upfront commitment and a set up service that is efficient, giving you the convenience of a workspace to present a professional front to your Clients</p>
-                            </div>
-                            <div class="ourbutton">
+                        <div class="img">
+                            <img style="border-radius: 10px;" src="images/croom.jpg" width="50%" height="50%" alt="">
+                        </div>
+                        <div class="heading">
+                            <h1>We have a Great Workspace</h1>
+                        </div>
+                        <div class="text">
+                            <p>We offer excellent tech solutions via serviced office spaces with minimal upfront
+                                commitment and a set up service that is efficient, giving you the convenience of a
+                                workspace to present a professional front to your Clients</p>
+                        </div>
+                        <div class="ourbutton">
                             <button><a href="">Read more</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- section two ends here -->
+
+
+            <!-- sectionthree -->
+            <section>
+                <div class="work">
+                    <div class="subwork">
+
+                        <div class="subwork-heading">
+                            <h1>The Awesomeness of our Work</h1>
+                        </div>
+                        <div class="subwork-mid">
+                            <p>Our primary goal is to see to the sustainable growth of your business, earn your trust
+                                and reward your confidence with incomparable value, price, quality and services .So far,
+                                we have had over 200 innovative businesses benefit from our programs, products and
+                                services.</p>
+                        </div>
+                        <div class="subwork-img">
+                            <div class="subimg">
+                                <div class="subimg-img">
+                                    <img src="images/croom.jpg" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="subimg-text">
+                                    <h1>Conference Hall</h1>
+
+                                    <h5>
+                                        Use our co-working space with unlimited working hours per day to maximize your
+                                        business potentials. It is a very functional and inspiring work space that
+                                        stimulates innovation and creativity. </h5>
+                                    <p>Features</p>
+                                    <div class="listing">
+                                        <h4>&#x2714; Fast Internet for Video Conferencing </h4>
+
+                                        <h4>&#x2714; Free Wi-Fi   </h4>
+
+                                        <h4>&#x2714; Uninterrupted Power Supply Ample & Secure Parking </h4>
+
+                                        <h4>&#x2714; Space Air Conditioning </h4>
+
+                                        <h4>&#x2714; CCTV Camera surveillance Access to Networking Opportunities</h4>
+
+
+                                    </div>
+                                </div>
                             </div>
+                            <div class="subimg">
+                                <div class="subimg-img">
+                                    <img src="images/cwroom.jpg" width="100%" height="100%" alt="">
+
+                                </div>
+                                <div class="subimg-text">
+                                    <h1>Co-Working Space</h1>
+
+                                    <h5>The Shared Desk Office is a permanent co-working space with unlimited working
+                                        hours per day. Office expenses are low, while the user’s professionalism retains
+                                        the image of a traditional, high-cost office. </h5>
+                                    <p>Features</p>
+                                    <div class="listing">
+
+                                        <h4>&#x2714; Functional and Inspiring workspaces  </h4>
+
+                                        <h4>&#x2714; Business Correspondence & Management </h4>
+
+                                        <h4>&#x2714; Administrative assistant </h4>
+
+                                        <h4>&#x2714; Boardroom  </h4>
+
+                                        <h4>&#x2714; Free Wi-Fi  </h4>
+
+                                        <h4>&#x2714;  Uninterrupted Power Supply Ample & Secure Parking </h4>
+
+                                        <h4>&#x2714; Space Air Conditioning </h4>
+
+                                        <h4>&#x2714; CCTV Camera surveillance Access to Networking Opportunities </h4>
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="subimg">
+                                <div class="subimg-img">
+                                    <img src="images/troom.jpg" width="100%" height="100%" alt="">
+
+                                </div>
+                                <div class="subimg-text">
+                                    <h1>Training Hall</h1>
+                                    <h5>This package allows for anyone intending to host a seminar, workshops and
+                                        conferences to seat between 30-60 participants. Reaching out to our  customers with exiciting services and facilities. </h5>
+                                    <p>Features</p>
+                                    <div class="listing">
+                                        <h4>&#x2714; Projector </h4>
+
+                                        <h4>&#x2714; Access to kitchen </h4>
+
+                                        <h4>&#x2714; Administrative assistant </h4>
+
+                                        <h4>&#x2714; Free Wi-Fi  </h4>
+
+                                        <h4>&#x2714; Uninterrupted Power Supply Ample & Secure Parking </h4>
+
+                                        <h4>&#x2714; Space Air Conditioning </h4>
+
+                                        <h4>&#x2714; Feature Event and Registration On Website </h4>
+
+
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
                     </div>
-            </div>
-</section>
 
-
-
-                <!-- section two ends here -->
-
-
-                <!-- sectionthree -->
-                <section>
-                    <div class="work">
-                        <div class="subwork">
-                      
-                                <div class="subwork-heading">
-                                    <h1>The Awesomeness of our Work</h1>
-                                </div>
-                                <div class="subwork-mid">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis maxime libero fugit inventore doloribus quibusdam fuga quis expedita voluptates perspiciatis! Placeat veniam unde iste ipsum vero architecto vel maxime explicabo sequi nihil perferendis assumenda officiis tempora, asperiores accusamus obcaecati aliquid, eligendi quos ab! Molestiae eaque, inventore voluptates reprehenderit odio doloremque ipsum deserunt sunt accusantium unde voluptatem delectus et magni fugiat.</p>
-                                </div>
-                                <div class="subwork-img">
-                                            <div class="subimg">
-
-                                            </div>
-                                            <div class="subimg">
-                                                
-                                            </div>
-                                            <div class="subimg">
-                                                
-                                            </div>
-                                </div>
-                    </div>
-      
                 </div>
 
 
-                    
-                </section>
-                <!-- sectionthree -->
+
+            </section>
+            <!-- sectionthree -->
+
+
+            <!-- section four starts here -->
+            <section>
+                <div class="dues">
+                    <div class="dueseach">
+
+                    </div>
+                </div>
+            </section>
+            <!-- section four ends here -->
 
 
 
