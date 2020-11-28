@@ -387,7 +387,7 @@
 
         /* section contact starts here */
         .contact {
-            border: 1px solid rgb(23, 24, 23);
+            /* border: 1px solid rgb(23, 24, 23); */
             position: relative;
             top: 620px;
             height: 30vh;
@@ -396,13 +396,11 @@
         }
 
         .contact-left {
-            border: 2px solid red;
             flex: 3;
             text-align: center;
         }
 
         .contact-right {
-            border: 2px solid blue;
             flex: 3;
             text-align: center;
 
@@ -428,6 +426,9 @@
 
         }
 
+        .contact-left-bottom svg{
+            padding: 5px 5px;
+        }
         .contact-left-bottom a {
             text-decoration: none;
             color: white;
@@ -455,7 +456,17 @@
         }
 
         /* section contact ends here */
-
+        .lastempty{
+            
+            background-color: #663300;
+                border:1px solid rgba(255, 255, 255, 0.452) ;
+                border-right: none;
+                border-left: none;
+                border-bottom: none;
+                position: relative;
+            top: 620px;
+            height: 6px;
+        }
 
 
 
@@ -703,9 +714,8 @@
             /* section contact starts here */
 
             .contact {
-                border: 3px solid red;
                 position: relative;
-                height: 85vh;
+                height: 90vh;
                 left: 0px;
                 right: 0px;
                 bottom: 0px;
@@ -715,14 +725,12 @@
 
 
             .contact-left {
-                border: 2px solid red;
                 text-align: center;
                 margin-top: 20px;
 
             }
 
             .contact-right {
-                border: 2px solid blue;
                 text-align: center;
                 margin-top: 30px;
             }
@@ -781,8 +789,22 @@
             }
 
 
+.lastempty{
+    position: relative;
+                height: 5vh;
+                left: 0px;
+                right: 0px;
+                bottom: 0px;
+                top: 2925px;
+                background-color: #663300;
+                border:1px solid rgba(255, 255, 255, 0.452) ;
+                border-right: none;
+                border-left: none;
+                border-bottom: none;
 
 
+}
+          
 
 
 
@@ -1154,7 +1176,31 @@
                             <p>152 Obafemi Awolowo Way, Ikeja Lagos.</p>
                             <a href="http://nomadians.co/">
                                 <p>http://nomadians.co/</p>
+
                             </a>
+                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                width="24" height="24"
+                                viewBox="0 0 172 172"
+                                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M83.60633,14.36917c-36.163,1.1825 -66.59267,30.42967 -69.09383,66.52817c-2.6445,38.19117 24.66767,70.46267 60.7805,75.88783v-51.7935h-11.567c-5.203,0 -9.417,-4.214 -9.417,-9.417v0c0,-5.203 4.214,-9.417 9.417,-9.417h11.55983v-12.5345c0,-20.75467 10.11217,-29.8635 27.36233,-29.8635c2.5585,0 4.74433,0.05733 6.6005,0.1505c4.558,0.22217 8.09117,4.0205 8.09117,8.58567v0c0,4.7515 -3.8485,8.6 -8.6,8.6h-3.16767c-7.32433,0 -9.88283,6.9445 -9.88283,14.7705v10.2985h13.40167c4.2355,0 7.47483,3.77683 6.82983,7.96217l-0.774,5.02383c-0.52317,3.36833 -3.4185,5.85517 -6.82983,5.85517h-12.62767v51.93683c34.99483,-4.7515 61.97733,-34.66517 61.97733,-70.94283c0,-40.377 -33.3895,-72.9495 -74.06033,-71.63083z"></path></g></g></svg></a>
+                                <a href=""><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                    width="24" height="24"
+                                    viewBox="0 0 172 172"
+                                    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M172,30.82226c-6.4388,2.85547 -12.9056,5.01107 -20.07226,5.73894c7.16667,-4.3112 12.9056,-11.47787 15.76107,-19.3724c-7.16667,4.31119 -14.33333,7.16667 -22.19988,8.6224c-7.16667,-7.16667 -16.48893,-11.47787 -26.51106,-11.47787c-19.3724,0 -35.13347,15.76107 -35.13347,35.10547c0,2.88346 0,5.73893 0.72786,7.89453c-29.39453,-1.42774 -55.17773,-15.06119 -72.39453,-36.56119c-3.58333,5.03906 -5.01107,11.47786 -5.01107,17.91667c0,12.20573 6.43881,22.95573 15.76107,29.39453c-5.73893,-0.72786 -11.44987,-2.1556 -15.76107,-4.31119c0,0 0,0 0,0.72786c0,17.18881 12.17774,31.52214 27.93881,34.4056c-2.85547,0.69988 -5.71094,1.42774 -9.29427,1.42774c-2.1556,0 -4.3112,0 -6.4668,-0.72786c4.31119,14.33333 17.2168,24.38346 32.97786,24.38346c-12.17773,9.32227 -27.23893,15.03321 -43.72786,15.03321c-2.85547,0 -5.73893,0 -8.5944,-0.69988c15.76107,10.02214 34.4056,15.76107 53.75,15.76107c65.22787,0 100.33333,-53.75 100.33333,-100.33333c0,-1.42774 0,-2.85547 0,-4.31119c7.16667,-5.01107 12.9056,-11.44988 17.91667,-18.61654"></path></g></g></svg></a>
+
+
+                                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                        width="24" height="24"
+                                        viewBox="0 0 172 172"
+                                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M156.23893,0h-140.47786c-8.5944,0 -15.76107,7.16667 -15.76107,15.76107v140.47786c0,8.5944 7.16667,15.76107 15.76107,15.76107h140.47786c8.5944,0 15.76107,-7.16667 15.76107,-15.76107v-140.47786c0,-8.5944 -7.16667,-15.76107 -15.76107,-15.76107zM50.16667,143.33333h-28.66667v-78.83333h28.66667zM35.83333,55.17774c-8.5944,0 -14.33333,-5.73893 -14.33333,-12.9056c0,-7.86654 5.73893,-13.60547 14.33333,-13.60547c8.5944,0 14.33333,5.73893 14.33333,12.9056c0,7.86654 -5.73893,13.60547 -14.33333,13.60547zM150.5,143.33333h-28.66667v-43c0,-11.47786 -7.89453,-14.33333 -10.02213,-14.33333c-2.1556,0 -11.47787,1.42774 -11.47787,14.33333c0,1.42774 0,43 0,43h-28.66667v-78.83333h28.66667v11.47787c4.3112,-6.4668 11.47787,-11.47787 25.08333,-11.47787c13.60547,0 25.08333,10.75 25.08333,35.83333z"></path></g></g></svg></a>
+                                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                            width="24" height="24"
+                                            viewBox="0 0 172 172"
+                                            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M28.66667,28.66667c-6.665,0 -12.23843,4.6075 -13.82943,10.77799l71.16276,44.5957l71.20475,-44.46972c-1.548,-6.24217 -7.15625,-10.90397 -13.87142,-10.90397zM14.33333,55.42969v73.57031c0,7.90483 6.4285,14.33333 14.33333,14.33333h114.66667c7.90483,0 14.33333,-6.4285 14.33333,-14.33333v-73.41634l-71.66667,44.74967z"></path></g></g></svg></a>
+
+
+
+
+
                         </div>
                     </div>
                     <div class="contact-right">
@@ -1176,6 +1222,11 @@
 
 
             <!-- section contact ends here -->
+            <!-- section last -->
+<div class="lastempty">
+
+</div>
+            <!-- section last  end-->
 
 
 
